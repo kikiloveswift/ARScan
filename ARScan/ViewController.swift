@@ -72,4 +72,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
         
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = SceneViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

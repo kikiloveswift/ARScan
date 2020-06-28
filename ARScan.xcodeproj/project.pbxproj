@@ -14,6 +14,7 @@
 		FC1A08A424A8AC6700A89E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1A08A324A8AC6700A89E25 /* Assets.xcassets */; };
 		FC1A08A724A8AC6700A89E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1A08A524A8AC6700A89E25 /* LaunchScreen.storyboard */; };
 		FC1A08B224A8AC6700A89E25 /* ARScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A08B124A8AC6700A89E25 /* ARScanTests.swift */; };
+		FCAF948024A8F545004C7D75 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF947F24A8F545004C7D75 /* SceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		FC1A08AD24A8AC6700A89E25 /* ARScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1A08B124A8AC6700A89E25 /* ARScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScanTests.swift; sourceTree = "<group>"; };
 		FC1A08B324A8AC6700A89E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAF947F24A8F545004C7D75 /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				FC1A089A24A8AC6500A89E25 /* AppDelegate.swift */,
 				FC1A089C24A8AC6500A89E25 /* art.scnassets */,
 				FC1A089E24A8AC6500A89E25 /* ViewController.swift */,
+				FCAF947F24A8F545004C7D75 /* SceneViewController.swift */,
 				FC1A08A024A8AC6500A89E25 /* Main.storyboard */,
 				FC1A08A324A8AC6700A89E25 /* Assets.xcassets */,
 				FC1A08A524A8AC6700A89E25 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAF948024A8F545004C7D75 /* SceneViewController.swift in Sources */,
 				FC1A089F24A8AC6500A89E25 /* ViewController.swift in Sources */,
 				FC1A089B24A8AC6500A89E25 /* AppDelegate.swift in Sources */,
 			);
@@ -363,13 +367,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
 				INFOPLIST_FILE = ARScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kong.ARScan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.ARScanE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,13 +386,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ML9NWM8SSX;
+				DEVELOPMENT_TEAM = 628LRYYF8F;
 				INFOPLIST_FILE = ARScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kong.ARScan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.ARScanE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
